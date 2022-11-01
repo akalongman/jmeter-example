@@ -28,7 +28,7 @@ Tests should be run from external server, which will have enough performance res
 
 To run tests, use this command:
 
-    JVM_ARGS="-Xms16g -Xmx16g" /opt/apache-jmeter/bin/jmeter -n -q ./user.properties -t ./scripts/simple.jmx -JHOST=example.com -JPROTOCOL=https -JUSERS=5000 -JPERIOD=60 -JTIMEOUT=1000 -l ./storage/report_$(hostname)_$(date +%Y%m%d%H%M%S).csv
+    JVM_ARGS="-Xms16g -Xmx16g" /opt/apache-jmeter/bin/jmeter -n -q ./user.properties -t ./scripts/script.jmx -JHOST=example.com -JPROTOCOL=https -JUSERS=5000 -JPERIOD=60 -JTIMEOUT=1000 -l ./storage/report_$(hostname)_$(date +%Y%m%d%H%M%S).csv
 
 სადაც 
 
