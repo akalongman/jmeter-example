@@ -51,14 +51,14 @@ Also, you can upload CSV here: https://sense.blazemeter.com/gui/
 
 #### CLI Output
 
-"5 in 00:00:24 = 0.3/s" means that in 24 seconds we have sent 5 requests to the server with an average throughput of 0.3 requests per second
-"Avg: 182" means that the average response time at that moment is 182 milliseconds
-"Min: 88" means that the minimum response time from send requests for that period was 88 milliseconds
-"Max: 483" means that the maximum response time from send requests for that period was 483 milliseconds
-"Err: 0 (0.00%)" means that we didn't have any errors in requests for that period and the percentage of errors from total requests is 0 accordingly
-Active: shows the number of active users who were performing requests for this period
-Started: shows the total number of started threads since the beginning of the tests
-Finished: shows the total number of threads that already finished execution since the beginning of tests
+- "5 in 00:00:24 = 0.3/s" means that in 24 seconds we have sent 5 requests to the server with an average throughput of 0.3 requests per second
+- "Avg: 182" means that the average response time at that moment is 182 milliseconds
+- "Min: 88" means that the minimum response time from send requests for that period was 88 milliseconds
+- "Max: 483" means that the maximum response time from send requests for that period was 483 milliseconds
+- "Err: 0 (0.00%)" means that we didn't have any errors in requests for that period and the percentage of errors from total requests is 0 accordingly
+- Active: shows the number of active users who were performing requests for this period
+- Started: shows the total number of started threads since the beginning of the tests
+- Finished: shows the total number of threads that already finished execution since the beginning of tests
 
 ### Client Performance
 
